@@ -27,7 +27,7 @@ metadata:
 | 任务 | 执行 |
 | --- | --- |
 | 图片转 PPT / 1:1 复刻 | 先读[通用复刻与字体识别](references/image-replication.md)，以源图为版式依据 |
-| 需要原创图标 / 指定 sunburst | 读[素材来源与 API 记录](references/original-icons-and-provenance.md)，实际生成，原像素入 PPT |
+| 需要原创图标 / 指定图像模型 | 读[模型与接口选择](references/image-models.md)及[素材来源](references/original-icons-and-provenance.md)，实际生成，原像素入 PPT |
 | 新创作学术研究图 | 先核对科研内容，再读[风格与图标](references/style-and-icons.md) |
 | 用户已手调，只改一处 | 读[局部修改与字体](references/editing-and-typography.md)，以最新稿为源 |
 
@@ -42,6 +42,8 @@ metadata:
 ### 2. 决定每张图如何保留质量
 
 按用户授权选择抠取或 API 生成。允许沿用原图时，优先原始文件和无损裁图；此前要求原创时，调用指定模型原创生成，不把参考图标作为编辑目标。只需原图转换、素材已足够清楚时，不多余生图。
+
+生成模型由用户配置，不固定提供者或模型系列。优先沿用用户给出的准确模型 ID、接口和已有配置；可使用 Sunburst、Nano Banana、GPT Image 或其他生成模型。按[模型与接口选择](references/image-models.md)使用匹配的工具或 API。
 
 需要新图标时，简短提示词说明语义、配色、线宽、视角、留白和禁止文字，保留真实高分辨率输出。图标表要留足间隔；裁完检查细线、天线、导线和边缘完整。局部有问题只重生成对应素材。
 

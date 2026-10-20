@@ -1,4 +1,4 @@
 interface:
   display_name: "高清图片转可编辑PPT"
   short_description: "无损抠取或API生成高清素材，禁止描摹，重建原生文字结构与独立图片对象"
-  default_prompt: "使用 $image-to-editable-ppt 将参考图转成PPT，素材只允许无损抠取或API生成，禁止描摹，保留清晰度并原生重建文字、模块和连线。"
+  default_prompt: "使用 $image-to-editable-ppt 将参考图转成PPT，素材无损抠取或按我提供的模型与接口生成，保留清晰度，禁止描摹，原生重建文字和结构。"
