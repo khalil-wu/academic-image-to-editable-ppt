@@ -1,19 +1,19 @@
 ---
 name: image-to-editable-ppt
-description: Convert reference images, diagrams, screenshots and infographics into editable PowerPoint with native text and structure plus independent high-quality extracted or API-generated artwork. Match typography and layout, preserve image quality, and never trace raster artwork into paths. Also supports new academic figures and later local edits; not ordinary deck writing.
+description: Convert reference images, diagrams, screenshots and infographics into editable PowerPoint or draw.io, and convert existing PPTX diagrams to draw.io. Preserve native text, structure and independent high-quality extracted or API-generated artwork without tracing raster images. Also supports new academic figures and later local edits; not ordinary deck writing.
 metadata:
-  short-description: 图片转PPT：高清抠图或API生图，禁止描摹，原生文字结构与独立素材
+  short-description: 图片转PPT或draw.io：原生文字结构、高清独立素材，支持已有PPTX转换
 ---
 
-# 高清图片到可编辑 PPT
+# 高清图片到可编辑 PPT / draw.io
 
-把用户参考图拆成真正可单独修改的组件：文字、模块框、表格、连线原生重建；插画、图标、照片、信号图等视觉素材，无损抠取或通过图像 API 生成后独立放入 PPT。支持论文图，也支持截图、流程图、海报和一般图片。以用户最新要求为准，不擅改其逻辑、文稿或已手调版本。
+把用户参考图拆成真正可单独修改的组件：文字、模块框、表格单元格、连线原生重建；插画、图标、照片、信号图等视觉素材，无损抠取或通过图像 API 生成后独立放入用户指定的 PPTX 或 draw.io。已有 PPTX 可直接转换为多页 draw.io。支持论文图，也支持截图、流程图、海报和一般图片。以用户最新要求为准，不擅改其逻辑、文稿或已手调版本。
 
 ## 不可替代的约束
 
 **任何位图素材都不允许描摹。** 包括用户原图、网上图片和自己刚调用 API 生成的图片。禁止自动矢量化、轮廓追踪、按像素拼色块、手工描轮廓或用简笔图重画来替代视觉素材；不能为了“每个元素可编辑”牺牲画质。图标只能从原图/合法原资产抠取，或真正调用 Image API 生成。图片不能经色彩量化、降采样或反复有损压缩后冒充高清。
 
-这个限制针对图像素材。文字、布局框、表格、流程线等结构仍用原生 PPT 对象建立。用户有真正的源 SVG/矢量文件时，可直接保留或转换其原路径；不得先描摹位图制造一个 SVG 再声称使用了源矢量。
+这个限制针对图像素材。文字、布局框、表格、流程线等结构仍用目标格式的原生对象建立。用户有真正的源 SVG/矢量文件时，可直接保留或转换其原路径；不得先描摹位图制造一个 SVG 再声称使用了源矢量。
 
 **如实定义可编辑性：**
 
@@ -27,6 +27,7 @@ metadata:
 | 任务 | 执行 |
 | --- | --- |
 | 图片转 PPT / 1:1 复刻 | 先读[通用复刻与字体识别](references/image-replication.md)，以源图为版式依据 |
+| 图片或已有 PPTX 转 draw.io | 读[draw.io 转换与实测](references/drawio.md)，分别走场景/素材构建或直接转换路径 |
 | 需要原创图标 / 指定图像模型 | 读[模型与接口选择](references/image-models.md)及[素材来源](references/original-icons-and-provenance.md)，实际生成，原像素入 PPT |
 | 新创作学术研究图 | 先核对科研内容，再读[风格与图标](references/style-and-icons.md) |
 | 用户已手调，只改一处 | 读[局部修改与字体](references/editing-and-typography.md)，以最新稿为源 |
@@ -59,7 +60,7 @@ python scripts/crop_assets.py reference.png assets/robot.png --crop 799 694 276 
 
 ### 4. 原生结构与独立素材合成
 
-先完整建立原生文字、框、表格和流程结构。高清素材逐个放入 PPT，按语义分组、保持比例；不把多种功能合成一张不可拆的模块截图。整图草案可作参考，最终关系由已核对的场景决定。
+先完整建立原生文字、框、表格和流程结构。高清素材逐个放入目标文档，按语义分组、保持比例；不把多种功能合成一张不可拆的模块截图。整图草案可作参考，最终关系由已核对的场景决定。输出 PPTX 时：
 
 ```powershell
 python scripts/build_native_layout.py scene.json layout.pptx
@@ -70,14 +71,18 @@ python scripts/audit_pptx.py figure.pptx --expect scene.json --assets-report wit
 
 绑定工具处理直线。复杂闭环/弯折线要按真实应用支持的方式处理，不声称坐标相接就会随模块移动。移动验证在副本中完成。
 
+输出 draw.io 时，图片先复用 `scene.json` 与 `assets.json`，运行 `build_drawio.py`；已有 PPTX 则运行 `pptx_to_drawio.py`。两条路径均保留原生文字、框、分组和边，图片独立内嵌。命令、字体、分组变换与端口规则见 [drawio.md](references/drawio.md)。
+
 ### 5. 字体与清晰度
 
-以用户指定字体优先，复刻任务匹配源图的标题、正文、小标注层级。位图只能提供视觉近似匹配，不称恢复了确切源字体。中西文字体槽分别设置，检查目标 Office 实际加载，禁止把字转轮廓。
+以用户指定字体优先，复刻任务匹配源图的标题、正文、小标注层级。位图只能提供视觉近似匹配，不称恢复了确切源字体。检查目标编辑器实际加载的字体，禁止把字转轮廓；PPT 中西文字体槽分别设置，draw.io 仅在许可允许时嵌入字体，并显式设置文字对齐。
 
-保留素材原文件，PPT 内嵌原像素；原图抠取至少保持源图清晰度。API 新素材优先使实际前景达到最终显示像素的两倍以上。原图局部不足以支撑目标尺寸时，找更高清原资产或按已授权方式重新生图，不能靠描摹、插值或过度锐化伪装提升。
+保留素材原文件，目标文档内嵌原像素；原图抠取至少保持源图清晰度。API 新素材优先使实际前景达到最终显示像素的两倍以上。原图局部不足以支撑目标尺寸时，找更高清原资产或按已授权方式重新生图，不能靠描摹、插值或过度锐化伪装提升。
 
 ### 6. 集中验收、交付与发布
 
-全部组件完成后，读[验收与交付](references/quality-and-delivery.md)，统一核对来源、原生文字覆盖、独立图片对象和分辨率；用真实 PowerPoint/WPS 导出整图和关键局部。看到模糊、色块、丢细节，就回到素材来源和处理步骤修正，不能只凭审计通过交付。
+全部组件完成后，读[验收与交付](references/quality-and-delivery.md)，统一核对来源、原生文字覆盖、独立图片对象和分辨率。PPTX 用真实 PowerPoint/WPS 导出整图和关键局部。看到模糊、色块、丢细节，就回到素材来源和处理步骤修正，不能只凭审计通过交付。
 
-交付 PPTX、完整预览，说明组件编辑能力。只有用户要求时修改论文 PDF 或上传仓库。公开示例只用完成后实际导出的效果图，README 不宣称“全部原生矢量”或“像素完美”；不发布密钥、私人路径、旧失败稿和字体文件。
+draw.io 在真实编辑器中验收：改字、移动分组与连接端点、检查曲线和字体，再保存并重新打开。XML 计数只作覆盖核对，未完成的编辑或保存验证须如实标记。
+
+交付用户指定的 PPTX / `.drawio`、完整预览，说明组件编辑能力。只有用户要求时修改论文 PDF 或上传仓库。公开示例只用完成后实际导出的效果图，README 不宣称“全部原生矢量”或“像素完美”；不发布密钥、私人路径、旧失败稿和未获许可的字体文件。

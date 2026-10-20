@@ -1,0 +1,20 @@
+{
+  "source": "EEGAgent-Live-editable.drawio",
+  "pages": [
+    {
+      "name": "EEGAgent Live · 在线采集、识别与分析",
+      "cells": 108,
+      "text_objects": 24,
+      "images": 24,
+      "fonts": [
+        "Roboto Bold",
+        "Roboto",
+        "Roboto Condensed"
+      ],
+      "edges": 16,
+      "bound_edges": 7
+    }
+  ],
+  "unique_ids_and_valid_references": true,
+  "roundtrip_preserved": true
+}

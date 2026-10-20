@@ -1,0 +1,408 @@
+{
+  "source": "scene.json",
+  "output": "EEGAgent-Live-editable.drawio",
+  "format": "editable-mxGraphModel",
+  "raster_tracing": false,
+  "source_vector_conversion": "existing DrawingML paths converted directly to SVG assets",
+  "embedded_fonts": [
+    {
+      "family": "Roboto",
+      "name": "Roboto Bold",
+      "bold": true,
+      "italic": false,
+      "weight": 700,
+      "source": "Roboto-Bold.ttf",
+      "license": "Licensed under the Apache License, Version 2.0",
+      "sha256": "ef2ab0e402d5cb9de893e263a2c44e57f57fec3974b0d981bfe84dec3dae83a1"
+    },
+    {
+      "family": "Roboto",
+      "name": "Roboto",
+      "bold": false,
+      "italic": false,
+      "weight": 400,
+      "source": "Roboto-Regular.ttf",
+      "license": "Licensed under the Apache License, Version 2.0",
+      "sha256": "f0e5a21bf5c95e4c1bce2be98a3656ebcc6d42a21f41c4e3ebf69dd815702e54"
+    },
+    {
+      "family": "Roboto Condensed",
+      "name": "Roboto Condensed Bold",
+      "bold": true,
+      "italic": false,
+      "weight": 700,
+      "source": "RobotoCondensed-Bold.ttf",
+      "license": "Licensed under the Apache License, Version 2.0",
+      "sha256": "0312269650316e083b0c6d006daef09fbb56b6d172e5c65c31e23f1c25dcd28c"
+    },
+    {
+      "family": "Roboto Condensed",
+      "name": "Roboto Condensed",
+      "bold": false,
+      "italic": false,
+      "weight": 400,
+      "source": "RobotoCondensed-Regular.ttf",
+      "license": "Licensed under the Apache License, Version 2.0",
+      "sha256": "d5cbe10cfb954e6d580525bd05536b21447ce29ab8a84e21da8a58b588190326"
+    }
+  ],
+  "notes": [
+    "Native table cells are editable rectangles grouped as a table, not a raster table.",
+    "Existing cubic edges are approximated by editable curved-edge waypoints; compare actual draw.io rendering.",
+    "Source/target references are preserved. Optional --bind-nearby terminal inference is listed explicitly."
+  ],
+  "pages": [
+    {
+      "page": 1,
+      "name": "EEGAgent Live · 在线采集、识别与分析",
+      "vertices": 90,
+      "text_boxes": 24,
+      "groups": 7,
+      "image_objects": 24,
+      "existing_vector_assets": 0,
+      "source_vector_paths": 0,
+      "tables": 0,
+      "table_cells": 0,
+      "edges": 16,
+      "bound_edges": 7,
+      "unbound_edges": 9,
+      "curve_edges_approximated": [
+        "PYTHON_TO_SAVE",
+        "STRUCTURED_RESULT",
+        "EXPERIMENT_REQUEST"
+      ],
+      "texts": [
+        "OpenBCI设备",
+        "官方采集软件",
+        "OpenBCI GUI",
+        "Fz",
+        "Cz",
+        "Pz",
+        "Oz",
+        "Python在线处理",
+        "滤波与质控 · 特征与推理",
+        "实时波形、质量与识别结果",
+        "Fz",
+        "Cz",
+        "Pz",
+        "Oz",
+        "原始数据与实验事件保存",
+        "EEGAgent",
+        "实验组织与结果解读",
+        "解释、比较与报告",
+        "EEGAgent Live",
+        "在线采集、识别与分析",
+        "LSL数据流",
+        "结构化结果",
+        "实验设置与\n分析请求",
+        "持续采集与在线计算，Agent按需组织实验和解释结果"
+      ],
+      "images": [
+        {
+          "name": "IMAGE_CAP",
+          "kind": "source-raster",
+          "media": "ppt/media/asset_b7f34e9437e05117b289b12e.png",
+          "embedded_sha256": "b7f34e9437e05117b289b12edb65112adb16a01deb050229a9c94d6c071f381b",
+          "cropped": false
+        },
+        {
+          "name": "IMAGE_WIRELESS",
+          "kind": "source-raster",
+          "media": "ppt/media/asset_b5f8cd167beeefa7f1524a6d.png",
+          "embedded_sha256": "b5f8cd167beeefa7f1524a6d03152b674bfa8de83376660373c224e99d3741f5",
+          "cropped": false
+        },
+        {
+          "name": "IMAGE_LAPTOP",
+          "kind": "source-raster",
+          "media": "ppt/media/asset_051a017b7c98ac79dfda259d.png",
+          "embedded_sha256": "051a017b7c98ac79dfda259d9e98d0cbcd7788455bd141905f60861d320c14cc",
+          "cropped": false
+        },
+        {
+          "name": "IMAGE_GUI_SIGNALS",
+          "kind": "source-raster",
+          "media": "ppt/media/asset_0cdfd6105a92380c6b7f8c2b.png",
+          "embedded_sha256": "0cdfd6105a92380c6b7f8c2b6c4096ad600a43fbb06ec9f5a0d0192ec230a954",
+          "cropped": false
+        },
+        {
+          "name": "IMAGE_GUI_CONTROLS",
+          "kind": "source-raster",
+          "media": "ppt/media/asset_cf7d75bd95a80a0f6d229301.png",
+          "embedded_sha256": "cf7d75bd95a80a0f6d2293018a05e2a67f9e695fa03da2353524290cb6d615bc",
+          "cropped": false
+        },
+        {
+          "name": "IMAGE_PYTHON",
+          "kind": "source-raster",
+          "media": "ppt/media/asset_34a54092acd4cd431775cb4b.png",
+          "embedded_sha256": "34a54092acd4cd431775cb4b7d0c5d1570b8a40bcde89828c35a8f8ddd4f9006",
+          "cropped": false
+        },
+        {
+          "name": "IMAGE_FILTER",
+          "kind": "source-raster",
+          "media": "ppt/media/asset_b63a2aa17ccd6124293a7ea5.png",
+          "embedded_sha256": "b63a2aa17ccd6124293a7ea5179855129c38689749f396b4b29c3577d8b53472",
+          "cropped": false
+        },
+        {
+          "name": "IMAGE_BRAIN",
+          "kind": "source-raster",
+          "media": "ppt/media/asset_53548ca6e57cc55c2ca93d8a.png",
+          "embedded_sha256": "53548ca6e57cc55c2ca93d8ab192aacba3e3906a6578fbee9337daddb00d1c66",
+          "cropped": false
+        },
+        {
+          "name": "IMAGE_FEATURES",
+          "kind": "source-raster",
+          "media": "ppt/media/asset_75d58709a1d6576efc41e601.png",
+          "embedded_sha256": "75d58709a1d6576efc41e601a2996e6e0d55c9bffdf147b8066d99a57004cf35",
+          "cropped": false
+        },
+        {
+          "name": "IMAGE_PROCESS_SIGNALS",
+          "kind": "source-raster",
+          "media": "ppt/media/asset_8828c387ec986231b1030685.png",
+          "embedded_sha256": "8828c387ec986231b103068586749fee9b8f7f45c4ae8bc7fc6464a723ff5d55",
+          "cropped": false
+        },
+        {
+          "name": "IMAGE_LIVE_SIGNALS",
+          "kind": "source-raster",
+          "media": "ppt/media/asset_dab7cccc7d810d105db3cb04.png",
+          "embedded_sha256": "dab7cccc7d810d105db3cb0490a77b5d39974e3d38940d550ffe71fccda3ede5",
+          "cropped": false
+        },
+        {
+          "name": "IMAGE_TOPOGRAPHY",
+          "kind": "source-raster",
+          "media": "ppt/media/asset_9cb506d6fbc1804b9831fe82.png",
+          "embedded_sha256": "9cb506d6fbc1804b9831fe82359313070583a00cb61b41c255652965ac67852d",
+          "cropped": false
+        },
+        {
+          "name": "IMAGE_QUALITY_CURVE",
+          "kind": "source-raster",
+          "media": "ppt/media/asset_b8f3d1175818990b7aec78d9.png",
+          "embedded_sha256": "b8f3d1175818990b7aec78d9ca76349e52a444acfc96c16e4f6efa0dda0b2647",
+          "cropped": false
+        },
+        {
+          "name": "IMAGE_QUALITY_BAR",
+          "kind": "source-raster",
+          "media": "ppt/media/asset_caeb6f05ee29b09e8b27aeea.png",
+          "embedded_sha256": "caeb6f05ee29b09e8b27aeeab389fe6c808ac7991eae05bc45ac973c709cce89",
+          "cropped": false
+        },
+        {
+          "name": "IMAGE_LIVE_BARS",
+          "kind": "source-raster",
+          "media": "ppt/media/asset_784305706ab62b0eff852607.png",
+          "embedded_sha256": "784305706ab62b0eff8526076145e2b29addb66930daff74fb5e9c78f19eca10",
+          "cropped": false
+        },
+        {
+          "name": "IMAGE_DATABASE",
+          "kind": "source-raster",
+          "media": "ppt/media/asset_53b94d9752772eda74e14650.png",
+          "embedded_sha256": "53b94d9752772eda74e1465029b638ee1fdf08284bcb4f3391ec723186d58866",
+          "cropped": false
+        },
+        {
+          "name": "IMAGE_DATA_FILES",
+          "kind": "source-raster",
+          "media": "ppt/media/asset_7ab51d7a783acb14073f774a.png",
+          "embedded_sha256": "7ab51d7a783acb14073f774a18b9319c3f21f6b45a188c58438a440090f1e047",
+          "cropped": false
+        },
+        {
+          "name": "IMAGE_EVENT_DOC_0",
+          "kind": "source-raster",
+          "media": "ppt/media/asset_30ca400ba0df5a0a92780749.png",
+          "embedded_sha256": "30ca400ba0df5a0a92780749e0d5e7c6664ce875ee4d7f0e4af24e8ca9308def",
+          "cropped": false
+        },
+        {
+          "name": "IMAGE_EVENT_DOC_1",
+          "kind": "source-raster",
+          "media": "ppt/media/asset_6f0860e8a2a0bac7ca3a8211.png",
+          "embedded_sha256": "6f0860e8a2a0bac7ca3a8211b8f3f22d0b01700af005f75b81ad83d155b7e54c",
+          "cropped": false
+        },
+        {
+          "name": "IMAGE_EVENT_DOC_2",
+          "kind": "source-raster",
+          "media": "ppt/media/asset_a70a0849e16c994eb2dc32aa.png",
+          "embedded_sha256": "a70a0849e16c994eb2dc32aa5686229ee8a9fa978a23ef699827f85500325690",
+          "cropped": false
+        },
+        {
+          "name": "IMAGE_AGENT",
+          "kind": "source-raster",
+          "media": "ppt/media/asset_bf1676190f15516344e66249.png",
+          "embedded_sha256": "bf1676190f15516344e66249c5d728e31bc154025a537cb7884e0c243a558532",
+          "cropped": false
+        },
+        {
+          "name": "IMAGE_REPORT",
+          "kind": "source-raster",
+          "media": "ppt/media/asset_07b0e0da2cb745ce05f92a43.png",
+          "embedded_sha256": "07b0e0da2cb745ce05f92a43014b1fccc876fdd408606197cf21129db508207f",
+          "cropped": false
+        },
+        {
+          "name": "IMAGE_REPORT_REF_1",
+          "kind": "source-raster",
+          "media": "ppt/media/asset_ba41ea60cf0b500c973f737e.png",
+          "embedded_sha256": "ba41ea60cf0b500c973f737e42f414360843ffc4fb45b613a732803317736147",
+          "cropped": false
+        },
+        {
+          "name": "IMAGE_REPORT_REF_2",
+          "kind": "source-raster",
+          "media": "ppt/media/asset_1d0f72a3fe439ad29d09e513.png",
+          "embedded_sha256": "1d0f72a3fe439ad29d09e51302e9a0f0525c687a22048cb242dfae4e88844da7",
+          "cropped": false
+        }
+      ],
+      "connections": [
+        {
+          "name": "PROCESS_ARROW_1",
+          "source": null,
+          "target": null
+        },
+        {
+          "name": "PROCESS_ARROW_2",
+          "source": null,
+          "target": null
+        },
+        {
+          "name": "LIVE_DIVIDER",
+          "source": null,
+          "target": null
+        },
+        {
+          "name": "SAVE_DIVIDER",
+          "source": null,
+          "target": null
+        },
+        {
+          "name": "EVENT_TIME_AXIS",
+          "source": null,
+          "target": "p1_s53_target_port"
+        },
+        {
+          "name": "EVENT_STEM_0",
+          "source": null,
+          "target": null
+        },
+        {
+          "name": "EVENT_STEM_1",
+          "source": null,
+          "target": null
+        },
+        {
+          "name": "EVENT_STEM_2",
+          "source": null,
+          "target": null
+        },
+        {
+          "name": "EVENT_STEM_3",
+          "source": null,
+          "target": null
+        },
+        {
+          "name": "DEVICE_TO_GUI",
+          "source": "p1_s93",
+          "target": "p1_s94"
+        },
+        {
+          "name": "GUI_TO_PYTHON",
+          "source": "p1_s95",
+          "target": "p1_s96"
+        },
+        {
+          "name": "PYTHON_TO_LIVE",
+          "source": "p1_s97",
+          "target": "p1_s98"
+        },
+        {
+          "name": "PYTHON_TO_SAVE",
+          "source": "p1_s21_source_port",
+          "target": "p1_s21_target_port"
+        },
+        {
+          "name": "AGENT_TO_REPORT",
+          "source": "p1_s99",
+          "target": "p1_s100"
+        },
+        {
+          "name": "STRUCTURED_RESULT",
+          "source": "p1_s23_source_port",
+          "target": "p1_s23_target_port"
+        },
+        {
+          "name": "EXPERIMENT_REQUEST",
+          "source": "p1_s24_source_port",
+          "target": "p1_s24_target_port"
+        }
+      ],
+      "inferred_connections": [
+        {
+          "edge": "EVENT_TIME_AXIS",
+          "end": "target",
+          "module": "MODULE_SAVE",
+          "distance_px": 9.8
+        },
+        {
+          "edge": "PYTHON_TO_SAVE",
+          "end": "source",
+          "module": "MODULE_PYTHON",
+          "distance_px": 0.754
+        },
+        {
+          "edge": "PYTHON_TO_SAVE",
+          "end": "target",
+          "module": "MODULE_SAVE",
+          "distance_px": 1.508
+        },
+        {
+          "edge": "STRUCTURED_RESULT",
+          "end": "source",
+          "module": "MODULE_PYTHON",
+          "distance_px": 7.538
+        },
+        {
+          "edge": "STRUCTURED_RESULT",
+          "end": "target",
+          "module": "MODULE_AGENT",
+          "distance_px": 7.538
+        },
+        {
+          "edge": "EXPERIMENT_REQUEST",
+          "end": "source",
+          "module": "MODULE_AGENT",
+          "distance_px": 8.292
+        },
+        {
+          "edge": "EXPERIMENT_REQUEST",
+          "end": "target",
+          "module": "MODULE_PYTHON",
+          "distance_px": 6.784
+        }
+      ],
+      "embedded_font_faces": [
+        "Roboto",
+        "Roboto Bold",
+        "Roboto Condensed"
+      ]
+    }
+  ],
+  "intermediate_pptx_sha256": "4dbcb443a93dbb204d9506c829208c121e821f831da2f98f0043fcd078324b46",
+  "source_format": "scene-and-lossless-assets",
+  "source_sha256": "d45aabda7a06f46df19e79737f80825c48c48e4dce8364a41b0f0c38736e8cbf",
+  "asset_manifest": "assets.json",
+  "asset_manifest_sha256": "734314894ffbb0c7a9d96c2b0e0cbfb6997c639a35106d76cd908839f8dfeb83"
+}
