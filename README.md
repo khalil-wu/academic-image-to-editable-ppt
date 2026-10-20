@@ -12,7 +12,7 @@
 | :---: | :---: |
 | [![原图](docs/images/overview-source.png)](docs/images/overview-source.png) | [![PowerPoint 中选中的独立对象](docs/images/overview-editing.png)](docs/images/overview-editing.png) |
 
-[下载 Live 示例 PPTX](examples/live/EEGAgent-Live-editable.pptx?raw=true) · [查看 Live 预览](examples/live/preview.png)
+[总览可编辑 PPTX](examples/overview/EEGAgent-overview-editable.pptx?raw=true) · [下载 Live 示例 PPTX](examples/live/EEGAgent-Live-editable.pptx?raw=true) · [查看 Live 预览](examples/live/preview.png)
 
 ## 安装
 
