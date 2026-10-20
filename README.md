@@ -6,11 +6,13 @@
 
 ## 效果对比
 
-左侧为原图，右侧为 PowerPoint 导出效果。
+右侧使用用户提供的 PowerPoint 编辑截图，显示独立对象的选择框与控制点。
 
-![原图与可编辑 PPT 对比](docs/images/live-comparison.png)
+| 原图 | PowerPoint 编辑状态 |
+| :---: | :---: |
+| [![原图](docs/images/overview-source.png)](docs/images/overview-source.png) | [![PowerPoint 中选中的独立对象](docs/images/overview-editing.png)](docs/images/overview-editing.png) |
 
-[下载示例 PPTX](examples/live/EEGAgent-Live-editable.pptx?raw=true) · [查看预览](examples/live/preview.png)
+[下载 Live 示例 PPTX](examples/live/EEGAgent-Live-editable.pptx?raw=true) · [查看 Live 预览](examples/live/preview.png)
 
 ## 安装
 
