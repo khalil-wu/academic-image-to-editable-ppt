@@ -1,0 +1,463 @@
+{
+  "slide": 1,
+  "before_text": true,
+  "asset_policy": "no-tracing",
+  "assets": [
+    {
+      "name": "IMAGE_CAP",
+      "file": "extracted-assets/cap.png",
+      "box_pt": [
+        22.04946996466431,
+        137.38515901060072,
+        118.7279151943463,
+        105.15901060070672
+      ],
+      "source_type": "source-crop",
+      "crop_record": "extracted-assets/cap.source.json",
+      "source_crop_px": [
+        39,
+        243,
+        210,
+        186
+      ],
+      "editability": "independent-image-object"
+    },
+    {
+      "name": "IMAGE_WIRELESS",
+      "file": "extracted-assets/wireless.png",
+      "box_pt": [
+        143.6042402826855,
+        184.87632508833923,
+        26.007067137809187,
+        57.6678445229682
+      ],
+      "source_type": "source-crop",
+      "crop_record": "extracted-assets/wireless.source.json",
+      "source_crop_px": [
+        254,
+        327,
+        46,
+        102
+      ],
+      "editability": "independent-image-object"
+    },
+    {
+      "name": "IMAGE_LAPTOP",
+      "file": "extracted-assets/laptop.png",
+      "box_pt": [
+        214.8409893992933,
+        134.5583038869258,
+        157.73851590106008,
+        105.7243816254417
+      ],
+      "source_type": "source-crop",
+      "crop_record": "extracted-assets/laptop.source.json",
+      "source_crop_px": [
+        380,
+        238,
+        279,
+        187
+      ],
+      "editability": "independent-image-object"
+    },
+    {
+      "name": "IMAGE_GUI_SIGNALS",
+      "file": "extracted-assets/gui_signals.png",
+      "box_pt": [
+        251.59010600706713,
+        160.565371024735,
+        76.8904593639576,
+        58.23321554770318
+      ],
+      "source_type": "source-crop",
+      "crop_record": "extracted-assets/gui_signals.source.json",
+      "source_crop_px": [
+        445,
+        284,
+        136,
+        103
+      ],
+      "editability": "independent-image-object"
+    },
+    {
+      "name": "IMAGE_GUI_CONTROLS",
+      "file": "extracted-assets/gui_controls.png",
+      "box_pt": [
+        333.00353356890463,
+        158.30388692579507,
+        23.74558303886926,
+        61.62544169611308
+      ],
+      "source_type": "source-crop",
+      "crop_record": "extracted-assets/gui_controls.source.json",
+      "source_crop_px": [
+        589,
+        280,
+        42,
+        109
+      ],
+      "editability": "independent-image-object"
+    },
+    {
+      "name": "IMAGE_PYTHON",
+      "file": "extracted-assets/python.png",
+      "box_pt": [
+        541.6254416961131,
+        132.86219081272085,
+        42.96819787985866,
+        42.96819787985866
+      ],
+      "source_type": "source-crop",
+      "crop_record": "extracted-assets/python.source.json",
+      "source_crop_px": [
+        958,
+        235,
+        76,
+        76
+      ],
+      "editability": "independent-image-object"
+    },
+    {
+      "name": "IMAGE_FILTER",
+      "file": "extracted-assets/filter.png",
+      "box_pt": [
+        534.8409893992933,
+        180.35335689045937,
+        46.92579505300353,
+        46.360424028268554
+      ],
+      "source_type": "source-crop",
+      "crop_record": "extracted-assets/filter.source.json",
+      "source_crop_px": [
+        946,
+        319,
+        83,
+        82
+      ],
+      "editability": "independent-image-object"
+    },
+    {
+      "name": "IMAGE_BRAIN",
+      "file": "extracted-assets/brain.png",
+      "box_pt": [
+        632.0848056537103,
+        180.35335689045937,
+        31.09540636042403,
+        37.314487632508836
+      ],
+      "source_type": "source-crop",
+      "crop_record": "extracted-assets/brain.source.json",
+      "source_crop_px": [
+        1118,
+        319,
+        55,
+        66
+      ],
+      "editability": "independent-image-object"
+    },
+    {
+      "name": "IMAGE_FEATURES",
+      "file": "extracted-assets/features.png",
+      "box_pt": [
+        596.4664310954064,
+        179.78798586572438,
+        36.74911660777385,
+        45.22968197879859
+      ],
+      "source_type": "source-crop",
+      "crop_record": "extracted-assets/features.source.json",
+      "source_crop_px": [
+        1055,
+        318,
+        65,
+        80
+      ],
+      "editability": "independent-image-object"
+    },
+    {
+      "name": "IMAGE_PROCESS_SIGNALS",
+      "file": "extracted-assets/process_signals.png",
+      "box_pt": [
+        464.1696113074205,
+        182.04946996466433,
+        54.275618374558306,
+        43.53356890459364
+      ],
+      "source_type": "source-crop",
+      "crop_record": "extracted-assets/process_signals.source.json",
+      "source_crop_px": [
+        821,
+        322,
+        96,
+        77
+      ],
+      "editability": "independent-image-object"
+    },
+    {
+      "name": "IMAGE_LIVE_SIGNALS",
+      "file": "extracted-assets/live_signals.png",
+      "box_pt": [
+        731.0247349823322,
+        132.29681978798587,
+        96.67844522968198,
+        76.32508833922262
+      ],
+      "source_type": "source-crop",
+      "crop_record": "extracted-assets/live_signals.source.json",
+      "source_crop_px": [
+        1293,
+        234,
+        171,
+        135
+      ],
+      "editability": "independent-image-object"
+    },
+    {
+      "name": "IMAGE_TOPOGRAPHY",
+      "file": "extracted-assets/topography.png",
+      "box_pt": [
+        845.2296819787986,
+        171.87279151943463,
+        48.0565371024735,
+        46.92579505300353
+      ],
+      "source_type": "source-crop",
+      "crop_record": "extracted-assets/topography.source.json",
+      "source_crop_px": [
+        1495,
+        304,
+        85,
+        83
+      ],
+      "editability": "independent-image-object"
+    },
+    {
+      "name": "IMAGE_QUALITY_CURVE",
+      "file": "extracted-assets/quality_curve.png",
+      "box_pt": [
+        846.9257950530035,
+        132.29681978798587,
+        88.19787985865725,
+        16.395759717314487
+      ],
+      "source_type": "source-crop",
+      "crop_record": "extracted-assets/quality_curve.source.json",
+      "source_crop_px": [
+        1498,
+        234,
+        156,
+        29
+      ],
+      "editability": "independent-image-object"
+    },
+    {
+      "name": "IMAGE_QUALITY_BAR",
+      "file": "extracted-assets/quality_bar.png",
+      "box_pt": [
+        846.9257950530035,
+        151.51943462897526,
+        87.63250883392226,
+        9.6113074204947
+      ],
+      "source_type": "source-crop",
+      "crop_record": "extracted-assets/quality_bar.source.json",
+      "source_crop_px": [
+        1498,
+        268,
+        155,
+        17
+      ],
+      "editability": "independent-image-object"
+    },
+    {
+      "name": "IMAGE_LIVE_BARS",
+      "file": "extracted-assets/live_bars.png",
+      "box_pt": [
+        896.113074204947,
+        180.35335689045937,
+        40.14134275618375,
+        29.399293286219084
+      ],
+      "source_type": "source-crop",
+      "crop_record": "extracted-assets/live_bars.source.json",
+      "source_crop_px": [
+        1585,
+        319,
+        71,
+        52
+      ],
+      "editability": "independent-image-object"
+    },
+    {
+      "name": "IMAGE_DATABASE",
+      "file": "extracted-assets/database.png",
+      "box_pt": [
+        715.7597173144876,
+        302.47349823321554,
+        45.22968197879859,
+        59.92932862190813
+      ],
+      "source_type": "source-crop",
+      "crop_record": "extracted-assets/database.source.json",
+      "source_crop_px": [
+        1266,
+        535,
+        80,
+        106
+      ],
+      "editability": "independent-image-object"
+    },
+    {
+      "name": "IMAGE_DATA_FILES",
+      "file": "extracted-assets/data_files.png",
+      "box_pt": [
+        764.3816254416961,
+        304.7349823321555,
+        43.53356890459364,
+        54.275618374558306
+      ],
+      "source_type": "source-crop",
+      "crop_record": "extracted-assets/data_files.source.json",
+      "source_crop_px": [
+        1352,
+        539,
+        77,
+        96
+      ],
+      "editability": "independent-image-object"
+    },
+    {
+      "name": "IMAGE_AGENT",
+      "file": "extracted-assets/agent.png",
+      "box_pt": [
+        451.7314487632509,
+        392.36749116607774,
+        156.04240282685512,
+        146.9964664310954
+      ],
+      "source_type": "source-crop",
+      "crop_record": "extracted-assets/agent.source.json",
+      "source_crop_px": [
+        799,
+        694,
+        276,
+        260
+      ],
+      "editability": "independent-image-object"
+    },
+    {
+      "name": "IMAGE_REPORT",
+      "file": "extracted-assets/report.png",
+      "box_pt": [
+        710.1060070671379,
+        441.5547703180212,
+        122.68551236749117,
+        125.51236749116609
+      ],
+      "source_type": "source-crop",
+      "crop_record": "extracted-assets/report.source.json",
+      "source_crop_px": [
+        1256,
+        781,
+        217,
+        222
+      ],
+      "editability": "independent-image-object"
+    },
+    {
+      "name": "IMAGE_REPORT_REF_1",
+      "file": "extracted-assets/report_ref_1.png",
+      "box_pt": [
+        841.2720848056538,
+        465.30035335689047,
+        91.59010600706713,
+        30.530035335689046
+      ],
+      "source_type": "source-crop",
+      "crop_record": "extracted-assets/report_ref_1.source.json",
+      "source_crop_px": [
+        1488,
+        823,
+        162,
+        54
+      ],
+      "editability": "independent-image-object"
+    },
+    {
+      "name": "IMAGE_REPORT_REF_2",
+      "file": "extracted-assets/report_ref_2.png",
+      "box_pt": [
+        841.2720848056538,
+        512.791519434629,
+        91.59010600706713,
+        27.703180212014136
+      ],
+      "source_type": "source-crop",
+      "crop_record": "extracted-assets/report_ref_2.source.json",
+      "source_crop_px": [
+        1488,
+        907,
+        162,
+        49
+      ],
+      "editability": "independent-image-object"
+    },
+    {
+      "name": "IMAGE_EVENT_DOC_0",
+      "file": "extracted-assets/event_doc_0.png",
+      "box_pt": [
+        835.6183745583039,
+        340.3533568904594,
+        15.265017667844523,
+        19.2226148409894
+      ],
+      "source_type": "source-crop",
+      "crop_record": "extracted-assets/event_doc_0.source.json",
+      "source_crop_px": [
+        1478,
+        602,
+        27,
+        34
+      ],
+      "editability": "independent-image-object"
+    },
+    {
+      "name": "IMAGE_EVENT_DOC_1",
+      "file": "extracted-assets/event_doc_1.png",
+      "box_pt": [
+        862.756183745583,
+        340.3533568904594,
+        15.265017667844523,
+        19.2226148409894
+      ],
+      "source_type": "source-crop",
+      "crop_record": "extracted-assets/event_doc_1.source.json",
+      "source_crop_px": [
+        1526,
+        602,
+        27,
+        34
+      ],
+      "editability": "independent-image-object"
+    },
+    {
+      "name": "IMAGE_EVENT_DOC_2",
+      "file": "extracted-assets/event_doc_2.png",
+      "box_pt": [
+        889.8939929328623,
+        340.3533568904594,
+        15.265017667844523,
+        19.2226148409894
+      ],
+      "source_type": "source-crop",
+      "crop_record": "extracted-assets/event_doc_2.source.json",
+      "source_crop_px": [
+        1574,
+        602,
+        27,
+        34
+      ],
+      "editability": "independent-image-object"
+    }
+  ]
+}

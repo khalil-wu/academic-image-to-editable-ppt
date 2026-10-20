@@ -1,0 +1,1665 @@
+{
+  "title": "EEGAgent Live · 在线采集、识别与分析",
+  "canvas": {
+    "width": 1698,
+    "height": 1115,
+    "unit": "px",
+    "width_pt": 960
+  },
+  "mode": "image-replication",
+  "source": {
+    "reference_image": "reference.png"
+  },
+  "scope": {
+    "layout": "reference-replication",
+    "text": "reference-replication",
+    "icons": "lossless-source-crops",
+    "charts": "lossless-source-crops"
+  },
+  "asset_mode": "source-crop",
+  "elements": [
+    {
+      "id": "CANVAS",
+      "type": "rect",
+      "box": [
+        0,
+        0,
+        1698,
+        1115
+      ],
+      "style": {
+        "fill": "#FFFFFF",
+        "stroke": null,
+        "stroke_width": 1.5,
+        "radius": 0
+      }
+    },
+    {
+      "id": "DEVICE_FRAME",
+      "type": "rect",
+      "box": [
+        30,
+        153,
+        288,
+        301
+      ],
+      "style": {
+        "fill": "#FFFFFF",
+        "stroke": "#60218A",
+        "stroke_width": 2.2,
+        "radius": 18
+      }
+    },
+    {
+      "id": "DEVICE_HEADER",
+      "type": "path",
+      "commands": [
+        [
+          "M",
+          48,
+          155
+        ],
+        [
+          "L",
+          300,
+          155
+        ],
+        [
+          "C",
+          308.8,
+          155,
+          316,
+          162.2,
+          316,
+          171
+        ],
+        [
+          "L",
+          316,
+          217
+        ],
+        [
+          "L",
+          32,
+          217
+        ],
+        [
+          "L",
+          32,
+          171
+        ],
+        [
+          "C",
+          32,
+          162.2,
+          39.2,
+          155,
+          48,
+          155
+        ],
+        [
+          "Z"
+        ]
+      ],
+      "style": {
+        "gradient": [
+          "#F4E8F6",
+          "#F0EDFA"
+        ],
+        "gradient_angle": 0
+      }
+    },
+    {
+      "id": "GUI_FRAME",
+      "type": "rect",
+      "box": [
+        365,
+        153,
+        309,
+        301
+      ],
+      "style": {
+        "fill": "#FFFFFF",
+        "stroke": "#60218A",
+        "stroke_width": 2.2,
+        "radius": 18
+      }
+    },
+    {
+      "id": "GUI_HEADER",
+      "type": "path",
+      "commands": [
+        [
+          "M",
+          383,
+          155
+        ],
+        [
+          "L",
+          656,
+          155
+        ],
+        [
+          "C",
+          664.8,
+          155,
+          672,
+          162.2,
+          672,
+          171
+        ],
+        [
+          "L",
+          672,
+          217
+        ],
+        [
+          "L",
+          367,
+          217
+        ],
+        [
+          "L",
+          367,
+          171
+        ],
+        [
+          "C",
+          367,
+          162.2,
+          374.2,
+          155,
+          383,
+          155
+        ],
+        [
+          "Z"
+        ]
+      ],
+      "style": {
+        "gradient": [
+          "#E1F1FD",
+          "#E4F1FD"
+        ],
+        "gradient_angle": 0
+      }
+    },
+    {
+      "id": "PYTHON_FRAME",
+      "type": "rect",
+      "box": [
+        806,
+        153,
+        382,
+        306
+      ],
+      "style": {
+        "fill": "#FFFFFF",
+        "stroke": "#60218A",
+        "stroke_width": 2.2,
+        "radius": 18
+      }
+    },
+    {
+      "id": "PYTHON_HEADER",
+      "type": "path",
+      "commands": [
+        [
+          "M",
+          824,
+          155
+        ],
+        [
+          "L",
+          1170,
+          155
+        ],
+        [
+          "C",
+          1178.8,
+          155,
+          1186,
+          162.2,
+          1186,
+          171
+        ],
+        [
+          "L",
+          1186,
+          217
+        ],
+        [
+          "L",
+          808,
+          217
+        ],
+        [
+          "L",
+          808,
+          171
+        ],
+        [
+          "C",
+          808,
+          162.2,
+          815.2,
+          155,
+          824,
+          155
+        ],
+        [
+          "Z"
+        ]
+      ],
+      "style": {
+        "gradient": [
+          "#E0F1FD",
+          "#E6F2FE"
+        ],
+        "gradient_angle": 0
+      }
+    },
+    {
+      "id": "LIVE_FRAME",
+      "type": "rect",
+      "box": [
+        1242,
+        153,
+        433,
+        252
+      ],
+      "style": {
+        "fill": "#FFFFFF",
+        "stroke": "#60218A",
+        "stroke_width": 2.2,
+        "radius": 18
+      }
+    },
+    {
+      "id": "LIVE_HEADER",
+      "type": "path",
+      "commands": [
+        [
+          "M",
+          1260,
+          155
+        ],
+        [
+          "L",
+          1657,
+          155
+        ],
+        [
+          "C",
+          1665.8,
+          155,
+          1673,
+          162.2,
+          1673,
+          171
+        ],
+        [
+          "L",
+          1673,
+          213
+        ],
+        [
+          "L",
+          1244,
+          213
+        ],
+        [
+          "L",
+          1244,
+          171
+        ],
+        [
+          "C",
+          1244,
+          162.2,
+          1251.2,
+          155,
+          1260,
+          155
+        ],
+        [
+          "Z"
+        ]
+      ],
+      "style": {
+        "gradient": [
+          "#F5E8F7",
+          "#FBE8F2"
+        ],
+        "gradient_angle": 0
+      }
+    },
+    {
+      "id": "SAVE_FRAME",
+      "type": "rect",
+      "box": [
+        1242,
+        449,
+        433,
+        225
+      ],
+      "style": {
+        "fill": "#FFFFFF",
+        "stroke": "#60218A",
+        "stroke_width": 2.2,
+        "radius": 18
+      }
+    },
+    {
+      "id": "SAVE_HEADER",
+      "type": "path",
+      "commands": [
+        [
+          "M",
+          1260,
+          451
+        ],
+        [
+          "L",
+          1657,
+          451
+        ],
+        [
+          "C",
+          1665.8,
+          451,
+          1673,
+          458.2,
+          1673,
+          467
+        ],
+        [
+          "L",
+          1673,
+          509
+        ],
+        [
+          "L",
+          1244,
+          509
+        ],
+        [
+          "L",
+          1244,
+          467
+        ],
+        [
+          "C",
+          1244,
+          458.2,
+          1251.2,
+          451,
+          1260,
+          451
+        ],
+        [
+          "Z"
+        ]
+      ],
+      "style": {
+        "gradient": [
+          "#F0E6F7",
+          "#F4E7F4"
+        ],
+        "gradient_angle": 0
+      }
+    },
+    {
+      "id": "AGENT_FRAME",
+      "type": "rect",
+      "box": [
+        742,
+        636,
+        389,
+        383
+      ],
+      "style": {
+        "fill": "#FFFFFF",
+        "stroke": "#60218A",
+        "stroke_width": 2.2,
+        "radius": 18
+      }
+    },
+    {
+      "id": "AGENT_HEADER",
+      "type": "path",
+      "commands": [
+        [
+          "M",
+          760,
+          638
+        ],
+        [
+          "L",
+          1113,
+          638
+        ],
+        [
+          "C",
+          1121.8,
+          638,
+          1129,
+          645.2,
+          1129,
+          654
+        ],
+        [
+          "L",
+          1129,
+          695
+        ],
+        [
+          "L",
+          744,
+          695
+        ],
+        [
+          "L",
+          744,
+          654
+        ],
+        [
+          "C",
+          744,
+          645.2,
+          751.2,
+          638,
+          760,
+          638
+        ],
+        [
+          "Z"
+        ]
+      ],
+      "style": {
+        "gradient": [
+          "#FCE4EC",
+          "#FDE6EC"
+        ],
+        "gradient_angle": 0
+      }
+    },
+    {
+      "id": "REPORT_FRAME",
+      "type": "rect",
+      "box": [
+        1242,
+        713,
+        433,
+        305
+      ],
+      "style": {
+        "fill": "#FFFFFF",
+        "stroke": "#60218A",
+        "stroke_width": 2.2,
+        "radius": 18
+      }
+    },
+    {
+      "id": "REPORT_HEADER",
+      "type": "path",
+      "commands": [
+        [
+          "M",
+          1260,
+          715
+        ],
+        [
+          "L",
+          1657,
+          715
+        ],
+        [
+          "C",
+          1665.8,
+          715,
+          1673,
+          722.2,
+          1673,
+          731
+        ],
+        [
+          "L",
+          1673,
+          773
+        ],
+        [
+          "L",
+          1244,
+          773
+        ],
+        [
+          "L",
+          1244,
+          731
+        ],
+        [
+          "C",
+          1244,
+          722.2,
+          1251.2,
+          715,
+          1260,
+          715
+        ],
+        [
+          "Z"
+        ]
+      ],
+      "style": {
+        "gradient": [
+          "#E3F1FC",
+          "#E3F1FE"
+        ],
+        "gradient_angle": 0
+      }
+    },
+    {
+      "id": "FOOTER",
+      "type": "rect",
+      "box": [
+        292,
+        1045,
+        1119,
+        53
+      ],
+      "style": {
+        "fill": null,
+        "stroke": null,
+        "stroke_width": 1.5,
+        "radius": 27,
+        "gradient": [
+          "#F0EDF9",
+          "#F2F0FB"
+        ],
+        "gradient_angle": 0
+      }
+    },
+    {
+      "id": "DEVICE_TO_GUI",
+      "type": "connector",
+      "commands": [
+        [
+          "M",
+          319,
+          296
+        ],
+        [
+          "L",
+          363,
+          296
+        ]
+      ],
+      "style": {
+        "stroke": "#60218A",
+        "stroke_width": 3.4,
+        "arrow": true,
+        "fill": null,
+        "dash": false
+      }
+    },
+    {
+      "id": "GUI_TO_PYTHON",
+      "type": "connector",
+      "commands": [
+        [
+          "M",
+          675,
+          296
+        ],
+        [
+          "L",
+          804,
+          296
+        ]
+      ],
+      "style": {
+        "stroke": "#60218A",
+        "stroke_width": 3.4,
+        "arrow": true,
+        "fill": null,
+        "dash": false
+      }
+    },
+    {
+      "id": "PYTHON_TO_LIVE",
+      "type": "connector",
+      "commands": [
+        [
+          "M",
+          1189,
+          275
+        ],
+        [
+          "L",
+          1240,
+          275
+        ]
+      ],
+      "style": {
+        "stroke": "#60218A",
+        "stroke_width": 3.4,
+        "arrow": true,
+        "fill": null,
+        "dash": false
+      }
+    },
+    {
+      "id": "PYTHON_TO_SAVE",
+      "type": "connector",
+      "commands": [
+        [
+          "M",
+          1189,
+          360
+        ],
+        [
+          "L",
+          1208,
+          360
+        ],
+        [
+          "C",
+          1213,
+          360,
+          1215,
+          363,
+          1215,
+          369
+        ],
+        [
+          "L",
+          1215,
+          540
+        ],
+        [
+          "C",
+          1215,
+          546,
+          1218,
+          549,
+          1223,
+          549
+        ],
+        [
+          "L",
+          1240,
+          549
+        ]
+      ],
+      "style": {
+        "stroke": "#60218A",
+        "stroke_width": 3.3,
+        "arrow": true,
+        "fill": null,
+        "dash": false
+      }
+    },
+    {
+      "id": "AGENT_TO_REPORT",
+      "type": "connector",
+      "commands": [
+        [
+          "M",
+          1132,
+          854
+        ],
+        [
+          "L",
+          1240,
+          854
+        ]
+      ],
+      "style": {
+        "stroke": "#60218A",
+        "stroke_width": 3.4,
+        "arrow": true,
+        "fill": null,
+        "dash": false
+      }
+    },
+    {
+      "id": "STRUCTURED_RESULT",
+      "type": "connector",
+      "commands": [
+        [
+          "M",
+          897,
+          469
+        ],
+        [
+          "C",
+          846,
+          495,
+          829,
+          572,
+          871,
+          626
+        ]
+      ],
+      "style": {
+        "stroke": "#EE6197",
+        "stroke_width": 5.2,
+        "arrow": true,
+        "fill": null,
+        "dash": false
+      }
+    },
+    {
+      "id": "EXPERIMENT_REQUEST",
+      "type": "connector",
+      "commands": [
+        [
+          "M",
+          985,
+          625
+        ],
+        [
+          "C",
+          1043,
+          592,
+          1048,
+          525,
+          1011,
+          468
+        ]
+      ],
+      "style": {
+        "stroke": "#ED508C",
+        "stroke_width": 5.2,
+        "arrow": true,
+        "fill": null,
+        "dash": false
+      }
+    },
+    {
+      "id": "MAIN_TITLE",
+      "type": "text",
+      "text": "EEGAgent Live",
+      "box": [
+        40,
+        0,
+        500,
+        78
+      ],
+      "style": {
+        "font": "Roboto",
+        "font_ea": "Microsoft YaHei",
+        "font_size": 62.15,
+        "bold": true,
+        "color": "#351056",
+        "align": "left"
+      }
+    },
+    {
+      "id": "SUBTITLE",
+      "type": "text",
+      "text": "在线采集、识别与分析",
+      "box": [
+        41,
+        76,
+        610,
+        52
+      ],
+      "style": {
+        "font": "Roboto",
+        "font_ea": "Microsoft YaHei",
+        "font_size": 38,
+        "bold": false,
+        "color": "#351056",
+        "align": "left"
+      }
+    },
+    {
+      "id": "DEVICE_TITLE",
+      "type": "text",
+      "text": "OpenBCI设备",
+      "box": [
+        39,
+        159,
+        270,
+        52
+      ],
+      "style": {
+        "font": "Roboto",
+        "font_ea": "Microsoft YaHei",
+        "font_size": 30,
+        "bold": true,
+        "color": "#351056",
+        "align": "center"
+      }
+    },
+    {
+      "id": "GUI_TITLE",
+      "type": "text",
+      "text": "官方采集软件",
+      "box": [
+        374,
+        159,
+        291,
+        52
+      ],
+      "style": {
+        "font": "Roboto",
+        "font_ea": "Microsoft YaHei",
+        "font_size": 30,
+        "bold": true,
+        "color": "#351056",
+        "align": "center"
+      }
+    },
+    {
+      "id": "PYTHON_TITLE",
+      "type": "text",
+      "text": "Python在线处理",
+      "box": [
+        815,
+        159,
+        364,
+        52
+      ],
+      "style": {
+        "font": "Roboto",
+        "font_ea": "Microsoft YaHei",
+        "font_size": 30,
+        "bold": true,
+        "color": "#351056",
+        "align": "center"
+      }
+    },
+    {
+      "id": "LIVE_TITLE",
+      "type": "text",
+      "text": "实时波形、质量与识别结果",
+      "box": [
+        1251,
+        159,
+        415,
+        48
+      ],
+      "style": {
+        "font": "Roboto",
+        "font_ea": "Microsoft YaHei",
+        "font_size": 29,
+        "bold": true,
+        "color": "#351056",
+        "align": "center"
+      }
+    },
+    {
+      "id": "SAVE_TITLE",
+      "type": "text",
+      "text": "原始数据与实验事件保存",
+      "box": [
+        1251,
+        455,
+        415,
+        48
+      ],
+      "style": {
+        "font": "Roboto",
+        "font_ea": "Microsoft YaHei",
+        "font_size": 29,
+        "bold": true,
+        "color": "#351056",
+        "align": "center"
+      }
+    },
+    {
+      "id": "AGENT_TITLE",
+      "type": "text",
+      "text": "EEGAgent",
+      "box": [
+        751,
+        642,
+        371,
+        47
+      ],
+      "style": {
+        "font": "Roboto",
+        "font_ea": "Microsoft YaHei",
+        "font_size": 34,
+        "bold": true,
+        "color": "#351056",
+        "align": "center"
+      }
+    },
+    {
+      "id": "REPORT_TITLE",
+      "type": "text",
+      "text": "解释、比较与报告",
+      "box": [
+        1251,
+        719,
+        415,
+        48
+      ],
+      "style": {
+        "font": "Roboto",
+        "font_ea": "Microsoft YaHei",
+        "font_size": 30,
+        "bold": true,
+        "color": "#351056",
+        "align": "center"
+      }
+    },
+    {
+      "id": "LSL_LABEL",
+      "type": "text",
+      "text": "LSL数据流",
+      "box": [
+        680,
+        251,
+        120,
+        32
+      ],
+      "style": {
+        "font": "Roboto",
+        "font_ea": "Microsoft YaHei",
+        "font_size": 23,
+        "bold": false,
+        "color": "#351056",
+        "align": "center"
+      }
+    },
+    {
+      "id": "RESULT_LABEL",
+      "type": "text",
+      "text": "结构化结果",
+      "box": [
+        700,
+        530,
+        140,
+        38
+      ],
+      "style": {
+        "font": "Roboto",
+        "font_ea": "Microsoft YaHei",
+        "font_size": 25,
+        "bold": true,
+        "color": "#F00066",
+        "align": "left"
+      }
+    },
+    {
+      "id": "REQUEST_LABEL",
+      "type": "text",
+      "text": "实验设置与\n分析请求",
+      "box": [
+        1043,
+        516,
+        148,
+        70
+      ],
+      "style": {
+        "font": "Roboto",
+        "font_ea": "Microsoft YaHei",
+        "font_size": 25,
+        "bold": false,
+        "color": "#ED0060",
+        "align": "center",
+        "line_height": 33
+      }
+    },
+    {
+      "id": "PYTHON_CAPTION",
+      "type": "text",
+      "text": "滤波与质控 · 特征与推理",
+      "box": [
+        835,
+        409,
+        326,
+        36
+      ],
+      "style": {
+        "font": "Roboto",
+        "font_ea": "Microsoft YaHei",
+        "font_size": 24,
+        "bold": false,
+        "color": "#351056",
+        "align": "center"
+      }
+    },
+    {
+      "id": "AGENT_CAPTION",
+      "type": "text",
+      "text": "实验组织与结果解读",
+      "box": [
+        777,
+        963,
+        320,
+        44
+      ],
+      "style": {
+        "font": "Roboto",
+        "font_ea": "Microsoft YaHei",
+        "font_size": 28,
+        "bold": false,
+        "color": "#351056",
+        "align": "center"
+      }
+    },
+    {
+      "id": "FOOTER_LABEL",
+      "type": "text",
+      "text": "持续采集与在线计算，Agent按需组织实验和解释结果",
+      "box": [
+        310,
+        1052,
+        1083,
+        39
+      ],
+      "style": {
+        "font": "Roboto",
+        "font_ea": "Microsoft YaHei",
+        "font_size": 27,
+        "bold": false,
+        "color": "#351056",
+        "align": "center"
+      }
+    },
+    {
+      "id": "GUI_APP_NAME",
+      "type": "text",
+      "text": "OpenBCI GUI",
+      "box": [
+        414,
+        252,
+        170,
+        25
+      ],
+      "style": {
+        "font": "Roboto",
+        "font_ea": "Microsoft YaHei",
+        "font_size": 17,
+        "bold": false,
+        "color": "#392365",
+        "align": "left"
+      }
+    },
+    {
+      "id": "GUI_CHANNEL_Fz",
+      "type": "text",
+      "text": "Fz",
+      "box": [
+        418,
+        286,
+        24,
+        20
+      ],
+      "style": {
+        "font": "Roboto Condensed",
+        "font_ea": "Microsoft YaHei",
+        "font_size": 14.5,
+        "bold": false,
+        "color": "#351056",
+        "align": "left"
+      }
+    },
+    {
+      "id": "GUI_CHANNEL_Cz",
+      "type": "text",
+      "text": "Cz",
+      "box": [
+        418,
+        312,
+        24,
+        20
+      ],
+      "style": {
+        "font": "Roboto Condensed",
+        "font_ea": "Microsoft YaHei",
+        "font_size": 14.5,
+        "bold": false,
+        "color": "#351056",
+        "align": "left"
+      }
+    },
+    {
+      "id": "GUI_CHANNEL_Pz",
+      "type": "text",
+      "text": "Pz",
+      "box": [
+        418,
+        338,
+        24,
+        20
+      ],
+      "style": {
+        "font": "Roboto Condensed",
+        "font_ea": "Microsoft YaHei",
+        "font_size": 14.5,
+        "bold": false,
+        "color": "#351056",
+        "align": "left"
+      }
+    },
+    {
+      "id": "GUI_CHANNEL_Oz",
+      "type": "text",
+      "text": "Oz",
+      "box": [
+        418,
+        364,
+        24,
+        20
+      ],
+      "style": {
+        "font": "Roboto Condensed",
+        "font_ea": "Microsoft YaHei",
+        "font_size": 14.5,
+        "bold": false,
+        "color": "#351056",
+        "align": "left"
+      }
+    },
+    {
+      "id": "PROCESS_ARROW_1",
+      "type": "connector",
+      "commands": [
+        [
+          "M",
+          922,
+          358
+        ],
+        [
+          "L",
+          941,
+          358
+        ]
+      ],
+      "style": {
+        "stroke": "#60218A",
+        "stroke_width": 2.2,
+        "arrow": true,
+        "fill": null,
+        "dash": false
+      }
+    },
+    {
+      "id": "PROCESS_ARROW_2",
+      "type": "connector",
+      "commands": [
+        [
+          "M",
+          1033,
+          358
+        ],
+        [
+          "L",
+          1051,
+          358
+        ]
+      ],
+      "style": {
+        "stroke": "#60218A",
+        "stroke_width": 2.2,
+        "arrow": true,
+        "fill": null,
+        "dash": false
+      }
+    },
+    {
+      "id": "LIVE_CHANNEL_Fz",
+      "type": "text",
+      "text": "Fz",
+      "box": [
+        1263,
+        239,
+        25,
+        23
+      ],
+      "style": {
+        "font": "Roboto Condensed",
+        "font_ea": "Microsoft YaHei",
+        "font_size": 16,
+        "bold": false,
+        "color": "#351056",
+        "align": "left"
+      }
+    },
+    {
+      "id": "LIVE_CHANNEL_Cz",
+      "type": "text",
+      "text": "Cz",
+      "box": [
+        1263,
+        274,
+        25,
+        23
+      ],
+      "style": {
+        "font": "Roboto Condensed",
+        "font_ea": "Microsoft YaHei",
+        "font_size": 16,
+        "bold": false,
+        "color": "#351056",
+        "align": "left"
+      }
+    },
+    {
+      "id": "LIVE_CHANNEL_Pz",
+      "type": "text",
+      "text": "Pz",
+      "box": [
+        1263,
+        309,
+        25,
+        23
+      ],
+      "style": {
+        "font": "Roboto Condensed",
+        "font_ea": "Microsoft YaHei",
+        "font_size": 16,
+        "bold": false,
+        "color": "#351056",
+        "align": "left"
+      }
+    },
+    {
+      "id": "LIVE_CHANNEL_Oz",
+      "type": "text",
+      "text": "Oz",
+      "box": [
+        1263,
+        344,
+        25,
+        23
+      ],
+      "style": {
+        "font": "Roboto Condensed",
+        "font_ea": "Microsoft YaHei",
+        "font_size": 16,
+        "bold": false,
+        "color": "#351056",
+        "align": "left"
+      }
+    },
+    {
+      "id": "LIVE_DIVIDER",
+      "type": "connector",
+      "commands": [
+        [
+          "M",
+          1479,
+          235
+        ],
+        [
+          "L",
+          1479,
+          383
+        ]
+      ],
+      "style": {
+        "stroke": "#A398BE",
+        "stroke_width": 1.6,
+        "arrow": false,
+        "fill": null,
+        "dash": true
+      }
+    },
+    {
+      "id": "SAVE_DIVIDER",
+      "type": "connector",
+      "commands": [
+        [
+          "M",
+          1451,
+          535
+        ],
+        [
+          "L",
+          1451,
+          644
+        ]
+      ],
+      "style": {
+        "stroke": "#A99BC1",
+        "stroke_width": 1.5,
+        "arrow": false,
+        "fill": null,
+        "dash": true
+      }
+    },
+    {
+      "id": "EVENT_TIME_AXIS",
+      "type": "connector",
+      "commands": [
+        [
+          "M",
+          1470,
+          581
+        ],
+        [
+          "L",
+          1662,
+          581
+        ]
+      ],
+      "style": {
+        "stroke": "#60218A",
+        "stroke_width": 2.2,
+        "arrow": true,
+        "fill": null,
+        "dash": false
+      }
+    },
+    {
+      "id": "EVENT_STEM_0",
+      "type": "connector",
+      "commands": [
+        [
+          "M",
+          1489,
+          551
+        ],
+        [
+          "L",
+          1489,
+          591
+        ]
+      ],
+      "style": {
+        "stroke": "#60218A",
+        "stroke_width": 1.8,
+        "arrow": false,
+        "fill": null,
+        "dash": false
+      }
+    },
+    {
+      "id": "EVENT_MARKER_0",
+      "type": "ellipse",
+      "box": [
+        1480,
+        540,
+        18,
+        18
+      ],
+      "style": {
+        "fill": "#318BFA",
+        "stroke": null,
+        "stroke_width": 1.5
+      }
+    },
+    {
+      "id": "EVENT_STEM_1",
+      "type": "connector",
+      "commands": [
+        [
+          "M",
+          1537,
+          551
+        ],
+        [
+          "L",
+          1537,
+          591
+        ]
+      ],
+      "style": {
+        "stroke": "#60218A",
+        "stroke_width": 1.8,
+        "arrow": false,
+        "fill": null,
+        "dash": false
+      }
+    },
+    {
+      "id": "EVENT_MARKER_1",
+      "type": "ellipse",
+      "box": [
+        1528,
+        540,
+        18,
+        18
+      ],
+      "style": {
+        "fill": "#F46DB6",
+        "stroke": null,
+        "stroke_width": 1.5
+      }
+    },
+    {
+      "id": "EVENT_STEM_2",
+      "type": "connector",
+      "commands": [
+        [
+          "M",
+          1585,
+          551
+        ],
+        [
+          "L",
+          1585,
+          591
+        ]
+      ],
+      "style": {
+        "stroke": "#60218A",
+        "stroke_width": 1.8,
+        "arrow": false,
+        "fill": null,
+        "dash": false
+      }
+    },
+    {
+      "id": "EVENT_MARKER_2",
+      "type": "ellipse",
+      "box": [
+        1576,
+        540,
+        18,
+        18
+      ],
+      "style": {
+        "fill": "#6A2CC0",
+        "stroke": null,
+        "stroke_width": 1.5
+      }
+    },
+    {
+      "id": "EVENT_STEM_3",
+      "type": "connector",
+      "commands": [
+        [
+          "M",
+          1633,
+          551
+        ],
+        [
+          "L",
+          1633,
+          591
+        ]
+      ],
+      "style": {
+        "stroke": "#60218A",
+        "stroke_width": 1.8,
+        "arrow": false,
+        "fill": null,
+        "dash": false
+      }
+    },
+    {
+      "id": "EVENT_MARKER_3",
+      "type": "ellipse",
+      "box": [
+        1624,
+        540,
+        18,
+        18
+      ],
+      "style": {
+        "fill": "#3CB99D",
+        "stroke": null,
+        "stroke_width": 1.5
+      }
+    }
+  ],
+  "expected_texts": [
+    "EEGAgent Live",
+    "在线采集、识别与分析",
+    "OpenBCI设备",
+    "官方采集软件",
+    "Python在线处理",
+    "实时波形、质量与识别结果",
+    "原始数据与实验事件保存",
+    "EEGAgent",
+    "解释、比较与报告",
+    "LSL数据流",
+    "结构化结果",
+    "实验设置与\n分析请求",
+    "滤波与质控 · 特征与推理",
+    "实验组织与结果解读",
+    "持续采集与在线计算，Agent按需组织实验和解释结果",
+    "OpenBCI GUI",
+    "Fz",
+    "Cz",
+    "Pz",
+    "Oz",
+    "Fz",
+    "Cz",
+    "Pz",
+    "Oz"
+  ],
+  "expected_groups": [
+    "MODULE_DEVICE",
+    "MODULE_GUI",
+    "MODULE_PYTHON",
+    "MODULE_LIVE",
+    "MODULE_SAVE",
+    "MODULE_AGENT",
+    "MODULE_REPORT"
+  ],
+  "module_groups": [
+    {
+      "name": "MODULE_DEVICE",
+      "box": [
+        30,
+        153,
+        288,
+        301
+      ]
+    },
+    {
+      "name": "MODULE_GUI",
+      "box": [
+        365,
+        153,
+        309,
+        301
+      ]
+    },
+    {
+      "name": "MODULE_PYTHON",
+      "box": [
+        806,
+        153,
+        382,
+        306
+      ]
+    },
+    {
+      "name": "MODULE_LIVE",
+      "box": [
+        1242,
+        153,
+        433,
+        252
+      ]
+    },
+    {
+      "name": "MODULE_SAVE",
+      "box": [
+        1242,
+        449,
+        433,
+        225
+      ]
+    },
+    {
+      "name": "MODULE_AGENT",
+      "box": [
+        742,
+        636,
+        389,
+        383
+      ]
+    },
+    {
+      "name": "MODULE_REPORT",
+      "box": [
+        1242,
+        713,
+        433,
+        305
+      ]
+    }
+  ],
+  "bind_connections": [
+    {
+      "name": "DEVICE_TO_GUI",
+      "from": "MODULE_DEVICE",
+      "to": "MODULE_GUI"
+    },
+    {
+      "name": "GUI_TO_PYTHON",
+      "from": "MODULE_GUI",
+      "to": "MODULE_PYTHON"
+    },
+    {
+      "name": "PYTHON_TO_LIVE",
+      "from": "MODULE_PYTHON",
+      "to": "MODULE_LIVE"
+    },
+    {
+      "name": "AGENT_TO_REPORT",
+      "from": "MODULE_AGENT",
+      "to": "MODULE_REPORT"
+    }
+  ],
+  "expected_connections": [
+    {
+      "name": "DEVICE_TO_GUI",
+      "from": "PORT_DEVICE_TO_GUI_from",
+      "to": "PORT_DEVICE_TO_GUI_to"
+    },
+    {
+      "name": "GUI_TO_PYTHON",
+      "from": "PORT_GUI_TO_PYTHON_from",
+      "to": "PORT_GUI_TO_PYTHON_to"
+    },
+    {
+      "name": "PYTHON_TO_LIVE",
+      "from": "PORT_PYTHON_TO_LIVE_from",
+      "to": "PORT_PYTHON_TO_LIVE_to"
+    },
+    {
+      "name": "AGENT_TO_REPORT",
+      "from": "PORT_AGENT_TO_REPORT_from",
+      "to": "PORT_AGENT_TO_REPORT_to"
+    }
+  ],
+  "font_match": {
+    "latin_title": "Roboto Bold",
+    "east_asian_headers": "Microsoft YaHei Bold",
+    "status": "visual approximation from source bitmap"
+  },
+  "asset_policy": "no-tracing",
+  "quality": {
+    "min_ppi": 120,
+    "source_resampling": false,
+    "source_palette_quantization": false
+  },
+  "delivery_editability": {
+    "text": "native",
+    "frames_connectors": "native",
+    "illustrations_charts": "independent-images"
+  }
+}

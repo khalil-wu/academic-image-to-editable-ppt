@@ -1,0 +1,24 @@
+{
+  "operation": "lossless-crop",
+  "source_file": "../reference.png",
+  "source_sha256": "73d195069301cf5bbdc551ebec407322380578bd62f5c5b045c2724ab10d6dc1",
+  "source_size_px": [
+    1698,
+    1115
+  ],
+  "crop_xywh": [
+    39,
+    243,
+    210,
+    186
+  ],
+  "clear_rects_relative_xywh": [],
+  "output_size_px": [
+    210,
+    186
+  ],
+  "output_sha256": "b7f34e9437e05117b289b12edb65112adb16a01deb050229a9c94d6c071f381b",
+  "resampled": false,
+  "traced": false,
+  "palette_quantized": false
+}

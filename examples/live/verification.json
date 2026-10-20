@@ -1,0 +1,17 @@
+{
+  "asset_policy": "no-tracing",
+  "source_pixels_unchanged_for_all_24_assets": true,
+  "native_text_edit_test": true,
+  "independent_picture_move_and_crop_test": true,
+  "bound_connector_actual_delta_pt": 12.0,
+  "final_source_unchanged": true,
+  "final_pptx_sha256": "d4df7cc58826f842e1cf2e884abb9450e0381b926e723bc87fae260343e044df",
+  "rendered_in": "Microsoft PowerPoint",
+  "actual_pdf_fonts": [
+    "MicrosoftYaHei",
+    "MicrosoftYaHei-Bold",
+    "Roboto",
+    "Roboto Condensed",
+    "Roboto,Bold"
+  ]
+}

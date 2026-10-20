@@ -1,0 +1,6 @@
+Pillow
+lxml
+numpy
+opencv-python
+fonttools
+pywin32; platform_system == "Windows"
